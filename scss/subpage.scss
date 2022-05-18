@@ -34,7 +34,7 @@ body.subpage {
       }
       // sub page title 영역
       .sub-title {
-        padding-left: 50px;
+        padding-left: 0;
         & + .inner {
           .tbl-header {
             margin-top: 50px;
@@ -58,8 +58,8 @@ body.subpage {
           line-height: 43px;
           underline 높이 3px, $borderColorPrimary;
           부모영역의 하단에 배치*/
-        &.notice, &.faq {
-          padding-left: 0;
+        &.company {
+          padding-left: 50px;
         }
       }
       // page content 영역
