@@ -52,6 +52,7 @@ $mainMinHeight: calc( 100vh - ( #{$headerHeight} + #{$footerHeight} + 51px ) );
             top: calc( 100% - 3px );
             opacity: 0;
             transition: .3s;
+            z-index: 500;
             li {
               width: 100%;
               margin: 0;
@@ -149,6 +150,9 @@ $mainMinHeight: calc( 100vh - ( #{$headerHeight} + #{$footerHeight} + 51px ) );
                 width: 65%;
                 box-sizing: border-box;
               }
+            }
+            p {
+              margin-bottom: 20px;
             }
           }
           &.news input[type=submit] {
